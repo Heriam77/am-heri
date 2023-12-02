@@ -1,0 +1,27 @@
+@font-face {
+  font-family: Poppins;
+  src: url("../fonts/Poppins-Regular.ttf");
+}
+body {
+  font-family: Poppins;
+}
+/* Barre de défilement */
+::-webkit-scrollbar {
+  width: 0px;
+  background-color: #f0f0f0;
+}
+
+/* Pouce de la barre de défilement */
+::-webkit-scrollbar-thumb {
+  background-color: whitesmoke;
+  border-radius: 10px;
+}
+
+/* Piste de la barre de défilement (la partie grise) */
+::-webkit-scrollbar-track {
+  background-color: #ececec;
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
